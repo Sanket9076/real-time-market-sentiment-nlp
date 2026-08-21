@@ -3,6 +3,9 @@ Root entry point for Streamlit application.
 Delegates execution to dashboard/app.py.
 """
 
+import utils.http_session
+import utils.transport
+import utils.session
 from dashboard.app import main
 
 if __name__ == "__main__":
